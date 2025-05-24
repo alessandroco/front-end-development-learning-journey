@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Brown Bear</title>
+  </head>
+  <body>
+    <!-- This paragraph explains the author's bio -->
+
+    <!-- This link goes to Wikipedia's homepage -->
+    <a href="https://www.wikipedia.org/"> Visit Wikipedia for more information</a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"> Learn more about hyperlinks</a>
+    <a href="./about.html"> Read more about us</a>
+  </body>
+</html>
