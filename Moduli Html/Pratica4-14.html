@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML Forms Review</title>
+</head>
+<body>
+
+  <!-- Esercizio 1: form con action e method -->
+  <form action="/invia-dati" method="post">
+
+    <!-- Esercizio 2: campo testo con label -->
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" />
+    <br />
+
+    <!-- Esercizio 3: campo password con label -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" />
+    <br />
+
+    <!-- Esercizio 4: slider numerico con label -->
+    <label for="livello">Seleziona il livello da 1 a 10:</label>
+    <input
+      type="range"
+      id="livello"
+      name="livello"
+      min="1"
+      max="10"
+      step="1"
+    />
+    <br />
+
+    <!-- Esercizio 5: checkbox con label -->
+    <input type="checkbox" id="opzione1" name="scelte[]" value="A" />
+    <label for="opzione1">Opzione A</label>
+    <br />
+
+    <input type="checkbox" id="opzione2" name="scelte[]" value="B" />
+    <label for="opzione2">Opzione B</label>
+    <br />
+
+    <input type="checkbox" id="opzione3" name="scelte[]" value="C" />
+    <label for="opzione3">Opzione C</label>
+    <br />
+
+    <!-- Radio button con label -->
+    <input type="radio" id="si" name="consenso" value="si" />
+    <label for="si">Sì</label>
+    <br />
+
+    <input type="radio" id="no" name

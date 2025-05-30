@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Datalist Esercizio</title>
+</head>
+<body>
+
+  <form>
+    <label for="citta">Città ideale da visitare?</label><br>
+
+    <input
+      type="text"
+      id="citta"
+      name="citta"
+      list="citta-lista"
+    />
+
+    <datalist id="citta-lista">
+      <option value="New York"></option>
+      <option value="Tokyo"></option>
+      <option value="Barcellona"></option>
+      <option value="Città del Messico"></option>
+      <option value="Melbourne"></option>
+      <option value="Altro"></option>
+    </datalist>
+
+    <!-- Pulsante di invio per testare la form -->
+    <button type="submit">Invia</button>
+  </form>
+
+</body>
+</html>
