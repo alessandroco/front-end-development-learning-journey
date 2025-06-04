@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+
+
+
+    <body>
+
+
+        <main>
+            <article>
+            
+                <form action="">
+
+                    <label for="">Nome Completo</label>
+                    <input type="text" name="nome" id="nome" placeholder="Inserisci il tuo nome completo" minlength="3" required>
+                    <br>
+
+                    <label for="email">Indirizzo Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required pattern=".{6,}"><br><br>
+
+                    <label for="età">Età:</label>
+                    <input type="number" id="età" name="età" min="13" max="100" required><br><br>
+
+                    <label for="Soddisfazione">Soddisfazione:</label>
+                    <input type="range" id="Soddisfazione" name="Soddisfazione" min="1" max="10" step="1" > <br><br>
+                
+                    <label for="messaggio">Messaggio:</label>
+                    <textarea name="messaggio" id="messaggio" maxlength="500"></textarea><br><br>
+                
+                    <label for="trovato">Come mi hai trovato?</label>
+                    <input list="fonti" id="trovato" name="trovato">
+                    <datalist id="fonti">
+                    <option value="Google">
+                    <option value="Amico">
+                    <option value="LinkedIn">
+                    </datalist><br><br>
+
+                    <fieldset>
+                    <legend>Metodo di Contatto Preferito:</legend>
+                    <label><input type="radio" name="contatto_preferito" value="email"> Email</label>
+                    <label><input type="radio" name="contatto_preferito" value="telefono"> Telefono</label>
+                    </fieldset><br>
+
+                    <fieldset>
+                    <legend>Iscriviti a...</legend>
+                    <label><input type="checkbox" name="iscrizione" value="notizie"> Notizie</label>
+                    <label><input type="checkbox" name="iscrizione" value="eventi"> Eventi</label>
+                    </fieldset><br>
+
+                    <button type="submit">Invia Messaggio</button>
+
+                </form>
+
+            </article>
+
+        </main>
+    </body>
+
+
+
+
+</html>
