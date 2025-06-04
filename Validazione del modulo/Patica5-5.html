@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Validazione Carta di Credito</title>
+</head>
+<body>
+
+  <form action="/esempio.html" method="post">
+    
+    <label for="carta">Numero di carta di credito (senza spazi):</label><br>
+
+    <input
+      type="text"
+      id="carta"
+      name="carta"
+      required
+      pattern="^[0-9]{14,16}$"
+    ><br>
+
+    <input type="submit" value="Invia">
+
+  </form>
+
+</body>
+</html>
